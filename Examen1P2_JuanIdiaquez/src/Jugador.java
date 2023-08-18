@@ -14,7 +14,7 @@ public abstract class Jugador {
     String Nacionalidad;
     String PHabil;
     int Rating; 
-    String Equipo;
+    Equipo Equipo;
     int Agarre;
     int Lanzamiento;
     int Fisico;
@@ -45,7 +45,7 @@ public abstract class Jugador {
         return Rating;
     }
 
-    public String getEquipo() {
+    public Equipo getEquipo() {
         return Equipo;
     }
 
@@ -101,7 +101,7 @@ public abstract class Jugador {
         this.PHabil = PHabil;
     }
 
-    public void setEquipo(String Equipo) {
+    public void setEquipo(Equipo Equipo) {
         this.Equipo = Equipo;
     }
 
@@ -109,7 +109,7 @@ public abstract class Jugador {
     public Jugador() {
     }
 
-    public Jugador(String Nombre, int Edad, String Nacionalidad, String PHabil, String Equipo) {
+    public Jugador(String Nombre, int Edad, String Nacionalidad, String PHabil, Equipo Equipo) {
         this.Nombre = Nombre;
         this.Edad = Edad;
         this.Nacionalidad = Nacionalidad;

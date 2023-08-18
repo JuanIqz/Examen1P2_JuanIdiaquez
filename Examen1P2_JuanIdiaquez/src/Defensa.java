@@ -12,7 +12,7 @@ import java.util.Random;
  */
 public class Defensa extends Jugador{
 
-    public Defensa(String Nombre, int Edad, String Nacionalidad, String PHabil, String Equipo) {
+    public Defensa(String Nombre, int Edad, String Nacionalidad, String PHabil, Equipo Equipo) {
         super(Nombre, Edad, Nacionalidad, PHabil, Equipo);
     }
     
