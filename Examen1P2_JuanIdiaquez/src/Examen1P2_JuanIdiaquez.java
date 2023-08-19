@@ -1606,6 +1606,7 @@ public class Examen1P2_JuanIdiaquez extends javax.swing.JFrame {
     ArrayList<Jugador> Jugador = new ArrayList();
     
     //Faltan las opciones de modificar
+    //falta la opcion de simulacion 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField AgregarCapacidadEstadioAgregar;
     private javax.swing.JTextField AgregarNombreEstadioAgregar;
